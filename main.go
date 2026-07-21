@@ -7,5 +7,5 @@ func main() {
 	for num < 1000 {
 		num += 1
 	}
-	fmt.Println("Число: ", num)
+	fmt.Println("Ответ: ", num)
 }
