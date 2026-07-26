@@ -8,8 +8,8 @@ import (
 func main() {
 	num := 0
 	for {
-		time.Sleep(100 * time.Millisecond)
+		time.Sleep(1000 * time.Millisecond)
 		num += 1
-		fmt.Println("Секунды: ", num)
+		fmt.Println("Секунд прошло: ", num)
 	}
 }
