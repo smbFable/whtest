@@ -10,6 +10,6 @@ func main() {
 	for {
 		time.Sleep(1000 * time.Millisecond)
 		num += 1
-		fmt.Println("Секунд прошло: ", num)
+		fmt.Println("Сeкунд прошло: ", num)
 	}
 }
